@@ -1,9 +1,9 @@
-insert into bruker (ID, fornavn,etternavn, epost)
+insert into bruker (ID, fornavn,etternavn, epost, password)
 values 
-('1', 'Erik','Dybfest', 'asdas@gmail.com'),
-('2', 'Albert','Usikker', 'test@testmail.com'),
-('3', 'Silje','Berg', 'asdasds@asdas.com'),
-('4', 'Johannes','Solem', 'mailmail@mail.com')
+('1', 'Erik','Dybfest', 'asdas@gmail.com', 'erik123'),
+('2', 'Albert','Usikker', 'test@testmail.com', 'albert123'),
+('3', 'Silje','Berg', 'asdasds@asdas.com','silje123'),
+('4', 'Johannes','Solem', 'mailmail@mail.com','johannes123')
 ;
 
 insert into student (student_ID, innleveringer, varslinger)

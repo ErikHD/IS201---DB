@@ -5,6 +5,7 @@ ID int not null,
 fornavn varchar(30) not null,
 etternavn varchar(30) not null,
 epost varchar (40) not null,
+password varchar (20) not null,
 constraint brukerPK primary key (ID)
 );
 

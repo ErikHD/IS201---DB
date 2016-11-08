@@ -6,10 +6,10 @@ add constraint foreleserPK primary key (ansattID),
 add ID int not null after ansattID,
 add constraint foreleserPK foreign key (ID) references bruker (ID);
 
-insert into bruker (ID, fornavn,etternavn, epost)
+insert into bruker (ID, fornavn,etternavn, epost, password)
 values 
-('5', 'Hallgeir','Nilsen', 'hallgeirnilsen@uia.com'),
-('6', 'Even','Larsen', 'evenlarsen@uia.com');
+('5', 'Hallgeir','Nilsen', 'hallgeirnilsen@uia.com', 'hallgeir123'),
+('6', 'Even','Larsen', 'evenlarsen@uia.com', 'even123');
 
 insert into foreleser
 values 
